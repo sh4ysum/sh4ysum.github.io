@@ -1,0 +1,14 @@
+// CURRENT PAGE URI COLOR
+.current {
+    color: red;
+  }
+
+// FONT SPECIFICS
+$font-stack: Helvetica, sans-serif;
+$primary-color: rgb(0, 0, 0);
+
+// FONT FOR BODY
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
