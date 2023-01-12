@@ -1,2 +1,17 @@
 plugins:
   - jekyll-seo-tag
+
+collections:
+  authors:
+    output: false
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
