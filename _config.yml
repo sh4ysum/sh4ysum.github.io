@@ -1,17 +1,137 @@
+## SITE
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+## CONTENT CONFIGURATION VERSION
+version: 2
+
+## PERSONAL INFO
+name: Shaylynn Clark
+title: Staff DevOps Engineer
+# email: 
+# website: www.github.com/
+
+## DARK MODE (true/false/never)
+darkmode: true
+
+## SOCIAL LINKS
+# twitter_username:
+# github_username:
+# stackoverflow_username: ""
+# dribbble_username: 
+# facebook_username: 
+# flickr_username: 
+# instagram_username: 
+linkedin_username: shaylynn-clark
+# xing_username: 
+# pinterest_username: 
+# youtube_username: 
+# googleplus_username: 
+# orcid_username: 0000-0000-0000-0000
+
+## ADDITIONAL ICON LINKS
+# additional_links:
+# - title: ABCxyz
+#   icon: fas fa-globe
+#   url: https://www.abc.xyz
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+## ABOUT SECTION
+# about_title: About
+about_profile_image: images/profile.jpg
+about_content: |
+  Howdy! Most know me as Shay. I am currently a DevOps Engineer, previously a Linux Administrator, with a focus on Kubernetes, configuration management and IaC.
+
+  I am most skilled in: <mark>Kubernetes</mark>, <mark>Configuration Management</mark>, <mark> Infrastructure as Code</mark> and <mark>Linux Administration</mark>.
+
+content:
+  # - title: Projects # Title for the section
+  #   layout: list # Type of content section (list/text)
+  #   content:
+  #     - layout: top-middle
+  #       title: Personal Projects
+  #       link: github.com/
+        # link_text: Project Website
+        # additional_links:
+        #   - title:  some-other-link
+        #     icon: fab fa-github
+        #     url: github.com/
+          # - title:  Github page for project
+          #   icon: fab fa-github
+            # url: Link to project
+        # quote: >
+        #   This is a sample quote.
+        # description: | # This will include new lines to allow paragraphs
+          # I started this project as a way if learning <mark>Lua</mark> and <mark>Python</mark>.
+
+## EXPERIENCE
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: NetDocuments
+        link: netdocuments.com
+        # link_text: netdocuments.com
+        sub_title: Staff DevOps Engineer
+        caption: October 2018 - Present
+        quote: >
+          Document Mangement Platform
+        description: |
+            Starting at NetDocuments I took on the task of automating deployments for engineering teams so they could focus on developing code. Over the years my role has evolved and I now also develop IaC for seamless scaling of private and public resources. Leveraging configuration management allows us keep those systems compliant and easily deaployable anywhere.
+
+      - layout: left
+        title: RackSpace Hosting
+        link: rackspace.com
+        # link_text: rackspace.com
+        sub_title: Linux System Administrator II
+        caption: October 2015 - October 2018
+        quote: >
+          Enterprise Administration and Hosting
+        description: |
+            Linux administration was my first role in the tech world. I started at the entry level position and quickly learned the skills necessary to support enterprise scale customers due to my facination with automation and configuration mangement. I worked mainly within the private cloud space, but near the end of my time at Rackspace I was able to learn more about public cloud and helping customers with migrations.
+
+## EDUCATION
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Universtity of Texas at San Antonio
+        caption: Graduated June 2015
+        sub_title: MS Physics
+        quote: >
+          Computational Physics
+        description: | 
+          During my time in graduate school, I learned the importance of time. Not all experimentation can be funded, so how can I prove my case in order to get my proposed project funded? Let's model it! Here started my facination with automation and using technology to solve problems.
+
+      - layout: left
+        title: Universtity of Texas at San Antonio
+        caption: Graduated May 2014
+        sub_title: BS Physics; Minor in Mathematics
+        quote: >
+          "The universe is a pretty big place. If it's just us, seems like an awful waste of space." - Carl Sagan
+        description: | 
+          I intended to get my degree and share my passion for learning. Striving to understand things at a fundemental level helped me to develop critical thinking skills and problem solve when the initial answer may not be clear. If you have a small piece of the puzzle, we might be able to derive the rest. 
+
+  - title: A Little More About Me
+    layout: text
+    content: |
+      Outside of work you can usually find me:
+      - Indoor rock climbing
+      - Gaming or learning about games
+      - Rooting for my favorite footy team
+
+# Footer
+footer_show_references: false
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
 plugins:
-  - jekyll-seo-tag
-
-collections:
-  authors:
-    output: false
-
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  - scope:
-      path: ""
-    values:
-      layout: "default"
+ - jekyll-seo-tag
