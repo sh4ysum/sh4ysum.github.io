@@ -7,7 +7,7 @@ version: 2
 
 ## PERSONAL INFO
 name: Shaylynn Clark
-title: Staff DevOps Engineer
+title: Principal DevOps Engineer
 email: shaylynnclark@gmail.com
 # website: www.github.com/
 
@@ -74,7 +74,7 @@ content:
         title: NetDocuments
         link: netdocuments.com
         # link_text: netdocuments.com
-        sub_title: Staff DevOps Engineer
+        sub_title: Principal DevOps Engineer
         caption: October 2018 - Present
         quote: >
           Document Mangement Platform
