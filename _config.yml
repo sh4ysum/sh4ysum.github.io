@@ -98,7 +98,7 @@ content:
     content:
       - layout: left
         title: University of Texas at San Antonio
-        caption: Graduated June 2015
+        caption: Graduated 2015
         sub_title: MS Physics
         quote: >
           Computational Physics
@@ -107,7 +107,7 @@ content:
 
       - layout: left
         title: University of Texas at San Antonio
-        caption: Graduated May 2014
+        caption: Graduated 2013
         sub_title: BS Physics; Minor in Mathematics
         quote: >
           "The universe is a pretty big place. If it's just us, seems like an awful waste of space." - Carl Sagan
