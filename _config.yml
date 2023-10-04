@@ -42,7 +42,7 @@ linkedin_username: shaylynn-clark
 # about_title: About
 about_profile_image: images/profile.jpg
 about_content: |
-  Howdy! Most know me as Shay. I am currently a DevOps Engineer, previously a Linux Administrator, with a focus on Kubernetes, configuration management and IaC.
+  Howdy! Most know me as Shay. I am currently a DevOps Engineer, previously a Linux Administrator, with a focus on Kubernetes, configuration management, IaC and platform engieering.
 
   I am most skilled in: <mark>Kubernetes</mark>, <mark>Configuration Management</mark>, <mark> Infrastructure as Code</mark> and <mark>Linux Administration</mark>.
 
@@ -79,7 +79,7 @@ content:
         quote: >
           Document Mangement Platform
         description: |
-            Starting at NetDocuments I took on the task of automating deployments for engineering teams so they could focus on developing code. Over the years my role has evolved and I now also develop IaC for seamless scaling of private and public resources. Leveraging configuration management allows us keep those systems compliant and easily deployable anywhere.
+            Starting at NetDocuments I took on the task of automating deployments for engineering teams so they could focus on developing code. Over the years my role has evolved and I now also develop IaC for seamless scaling of private and public resources. Leveraging configuration management allows us keep those systems compliant and easily deployable anywhere. In recent years, I have helped to build a platform for our Engineering staff to utilize in order to be more self-suffcient while remaining focused on quality and security.  
 
       - layout: left
         title: RackSpace Hosting
