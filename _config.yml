@@ -16,17 +16,17 @@ darkmode: true
 
 ## SOCIAL LINKS
 # twitter_username:
-# github_username:
+github_username: sh4ysum
 # stackoverflow_username: ""
-# dribbble_username: 
-# facebook_username: 
-# flickr_username: 
-# instagram_username: 
+# dribbble_username:
+# facebook_username:
+# flickr_username:
+# instagram_username:
 linkedin_username: shaylynn-clark
-# xing_username: 
-# pinterest_username: 
-# youtube_username: 
-# googleplus_username: 
+# xing_username:
+# pinterest_username:
+# youtube_username:
+# googleplus_username:
 # orcid_username: 0000-0000-0000-0000
 
 ## ADDITIONAL ICON LINKS
@@ -53,20 +53,20 @@ content:
   #     - layout: top-middle
   #       title: Personal Projects
   #       link: github.com/
-        # link_text: Project Website
-        # additional_links:
-        #   - title:  some-other-link
-        #     icon: fab fa-github
-        #     url: github.com/
-          # - title:  Github page for project
-          #   icon: fab fa-github
-            # url: Link to project
-        # quote: >
-        #   This is a sample quote.
-        # description: | # This will include new lines to allow paragraphs
-          # I started this project as a way if learning <mark>Lua</mark> and <mark>Python</mark>.
+  # link_text: Project Website
+  # additional_links:
+  #   - title:  some-other-link
+  #     icon: fab fa-github
+  #     url: github.com/
+  # - title:  Github page for project
+  #   icon: fab fa-github
+  # url: Link to project
+  # quote: >
+  #   This is a sample quote.
+  # description: | # This will include new lines to allow paragraphs
+  # I started this project as a way if learning <mark>Lua</mark> and <mark>Python</mark>.
 
-## EXPERIENCE
+  ## EXPERIENCE
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -79,7 +79,7 @@ content:
         quote: >
           Document Mangement Platform
         description: |
-            Starting at NetDocuments I took on the task of automating deployments for engineering teams so they could focus on developing code. Over the years my role has evolved and I now also develop IaC for seamless scaling of private and public resources. Leveraging configuration management allows us keep those systems compliant and easily deployable anywhere. In recent years, I have helped to build a platform for our engineering staff to utilize in order to be more self-suffcient while remaining focused on quality and security.  
+          Starting at NetDocuments I took on the task of automating deployments for engineering teams so they could focus on developing code. Over the years my role has evolved and I now also develop IaC for seamless scaling of private and public resources. Leveraging configuration management allows us keep those systems compliant and easily deployable anywhere. In recent years, I have helped to build a platform for our engineering staff to utilize in order to be more self-suffcient while remaining focused on quality and security.
 
       - layout: left
         title: RackSpace Hosting
@@ -90,9 +90,9 @@ content:
         quote: >
           Enterprise Administration and Hosting
         description: |
-            Linux administration was my first role in the tech world. I started at the entry level position and quickly learned the skills necessary to support enterprise scale customers due to my fascination with automation and configuration management. I worked mainly within the private cloud space, but near the end of my time at Rackspace I was able to learn more about public cloud and helping customers with migrations.
+          Linux administration was my first role in the tech world. I started at the entry level position and quickly learned the skills necessary to support enterprise scale customers due to my fascination with automation and configuration management. I worked mainly within the private cloud space, but near the end of my time at Rackspace I was able to learn more about public cloud and helping customers with migrations.
 
-## EDUCATION
+  ## EDUCATION
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -102,7 +102,7 @@ content:
         sub_title: MS Physics
         quote: >
           Computational Physics
-        description: | 
+        description: |
           During my time in graduate school, I learned the importance of time. Not all experimentation can be funded, so how can I prove my case in order to get my proposed project funded? Let's model it! Here started my fascination with automation and using technology to solve problems.
 
       - layout: left
@@ -111,8 +111,8 @@ content:
         sub_title: BS Physics; Minor in Mathematics
         quote: >
           "The universe is a pretty big place. If it's just us, seems like an awful waste of space." - Carl Sagan
-        description: | 
-          I intended to get my degree and share my passion for learning. Striving to understand things at a fundamental level helped me to develop critical thinking skills and problem solve when the initial answer may not be clear. If you have a small piece of the puzzle, we might be able to derive the rest. 
+        description: |
+          I intended to get my degree and share my passion for learning. Striving to understand things at a fundamental level helped me to develop critical thinking skills and problem solve when the initial answer may not be clear. If you have a small piece of the puzzle, we might be able to derive the rest.
 
   - title: A Little More About Me
     layout: text
@@ -134,4 +134,4 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
