@@ -92,6 +92,28 @@ content:
         description: |
           Linux administration was my first role in the tech world. I started at the entry level position and quickly learned the skills necessary to support enterprise scale customers due to my fascination with automation and configuration management. I worked mainly within the private cloud space, but near the end of my time at Rackspace I was able to learn more about public cloud and helping customers with migrations.
 
+      - layout: left
+        title: GameStop
+        link: gamestop.com
+        # link_text: gamestop.com
+        sub_title: Assistant Store Manager
+        caption: May 2011- June 2015
+        quote: >
+          We All Start Somewhere
+        description: |
+          While in school, I advanced from an entry level position to a store management position. I maintained daily store operations such as: payroll and scheduling, inventory management, monetary duties and logistics of inventory shipments. Analyzed profit & loss reports to assist with improving local store profits which lead to district recognition.
+
+      - layout: left
+        title: University of Texas at San Antonio
+        link: utsa.edu
+        # link_text: utsa.edu
+        sub_title: Teaching Assistant
+        caption: August 2014 - June 2015
+        quote: >
+          Helping Others Follow Their Passion
+        description: |
+          While pursuing a Master's degree, I was also working in the department to help foster a love of Physics for new students. I assisted in the design of physics curriculum and ran labs for the physics department. I also helped teach physics to entry level students in the evenings.
+
   ## EDUCATION
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
